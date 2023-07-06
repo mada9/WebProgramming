@@ -1,0 +1,87 @@
+
+$border: 1px solid;
+
+
+body{
+   margin: 3%;
+}
+
+
+div{
+   color: white;
+}
+
+body{
+   background-color: rgb(32, 32, 32);
+}
+
+nav {
+   text-align:right; 
+   
+}
+
+a:hover {
+   color: rgb(73, 112, 238);
+}
+
+a{
+   color: white;
+}
+
+.centre {
+   display: flex;
+   position: absolute;
+   top: 50%;
+   right: 10%;
+   left: 10%;
+   justify-content: center;
+ }
+
+
+ #text{
+   border-radius: 200px;
+   border: $border rgb(155, 155, 155);
+   background-color: rgb(32, 32, 32);
+   width: 50%;
+   height: 30px;
+   padding-inline-start: 10px;
+   color: white;
+ }
+
+ .searching {
+   position: absolute;
+   top: 120%;
+ }
+.search{  
+   border-radius: 3px;
+   border: $border rgb(70, 70, 70);
+   color: lightgray;
+   background-color: rgb(70, 70, 70);
+   padding: 5px;
+   margin: 5px;
+}
+
+label {
+   font-size: small;
+   position: absolute;
+}
+
+.adv{
+   position: relative;
+   left: 200px;
+   width: 50%;
+   height: 23px;
+   border: $border rgb(70, 70, 70);
+   background-color: rgb(32, 32, 32);
+   width: 50%;
+   padding-inline-start: 10px;
+   color: white;
+}
+
+.adv:active{
+   border: $border rgb(100, 103, 151);
+}
+
+.left {
+padding-top: 2.5%;
+}
